@@ -1,11 +1,9 @@
 body {
+    font-family: 'Montserrat Alternates', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-.nav-item {
-    padding-left: 9%;
-}
 
 .logo {
     width: 100%;
@@ -15,9 +13,9 @@ body {
 
 .sticky {
     position: fixed;
-    top: 0;
     width: 100%;
-    height: 9%;
+    top: 0;
+    height: 8.5%;
     z-index: 3;
     transition: all .3s ease-in-out;
   }
@@ -29,12 +27,12 @@ body {
 
   header {
       background-color: white;
-      height: 5.7rem;
+      height: 5rem;
       transition: all .3s ease-in-out;
   }
 
   nav{
-      margin-top: -3.5rem;
+      margin-top: -3.6rem;
       transition: all .3s ease-out;
   }
 .dropdown-menu {
@@ -68,16 +66,96 @@ body {
     border: none;
     cursor: pointer;
     padding-right: 2rem;
+    transition: all .2s ease-out;
+}
+
+.line {
+    width: 40%;
+}
+
+.actualite::before {
+    content: '';
+    width: 40%;
+    height: 5px;
+    position: absolute;
+    top: 85%;
+    background-color: aquamarine;
+    border-radius: 30%;
+}
+
+.actualite::after {
+    content: '';
+    width: 100%;
+    height: .8px;
+    position: absolute;
+    top: 95%;
+    background-color: aquamarine;
+}
+
+.card:hover {
+    transform: rotate(1deg);
+    transition: all .2s ease-in-out;
+    -webkit-box-shadow: -1px -4px 15px -5px rgba(0,0,0,0.84);
+    -moz-box-shadow: -1px -4px 15px -5px rgba(0,0,0,0.84);
+    box-shadow: -1px -4px 15px -5px rgba(0,0,0,0.84);
 }
 
 .card .card-img-top {
-    height: 15rem;
+    height: 13rem;
 }
 .menu-lang {
     width: 1px;
     height: 5px;
 }
 
+.carousel-control-next {
+    position: absolute;
+    top: -30%;
+    width: 50px;
+    height: 80px;
+}
+
+
+.carousel-control-next {
+    position: absolute;
+    top: -12%;
+    width: 25px;
+    height: 30px;
+}
+
+.carousel-control-next #carousel-control-next-icon{
+    position: absolute;
+    top: -12%;
+    width: 25px;
+    height: 30px;
+    background-color: aquamarine;
+}
+
+.carousel-control-prev {
+    position: absolute;
+    top: -12%;
+    left: 95%;
+    width: 25px;
+    height: 30px;
+}
+.carousel-control-prev #carousel-control-prev-icon{
+    position: absolute;
+    top: -12%;
+    width: 25px;
+    height: 30px;
+    background-color: aquamarine;
+}
+
 footer{
     background-color: aquamarine;
+}
+
+.footer-line {
+    width: 60%;
+    background-color:white;
+}
+
+.copyright {
+    background-color: burlywood;
+    height: 5%;
 }
