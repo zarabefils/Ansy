@@ -168,6 +168,32 @@ footer{
     flex-direction: row;
 }
 
+.follow a i {
+    color: beige;
+}
+
+
+/* Presentation Area*/
+.tab-content {
+    background-color: aliceblue;
+    padding: 1px 0 0 5px;
+}
+
+.tab-pane  > li {
+    list-style-type: none;
+}
+
+/* Réalisation Area*/
+
+/* Personnel Area*/
+
+.profile .card {
+    -webkit-box-shadow: 2px 2px 14px 0px rgba(50, 50, 50, 0.37);
+    -moz-box-shadow:    2px 2px 14px 0px rgba(50, 50, 50, 0.37);
+    box-shadow:         2px 2px 14px 0px rgba(50, 50, 50, 0.37); 
+}
+
+/* Partenaires Area*/
 
 @media (max-width: 575.98px) {}
 
@@ -302,7 +328,6 @@ footer{
     
     .quality-image {
         width: 20%;
-        margin-left: 1.8rem;
     }
     
     .num {
