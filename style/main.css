@@ -162,8 +162,7 @@ body {
 footer{
     background-image:url('https://image.freepik.com/free-photo/smooth-dark-blue-with-black-vignette-studio-well-use-as-background-business-report-digital-website-template_1258-748.jpg');
     padding: 2%;
-    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/12/Abstract-Green-Wallpaper-HD-620x388.jpg');
-}
+   }
 
 .footer-line {
     width: 50%;
@@ -187,6 +186,19 @@ footer{
     color: beige;
 }
 
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+.map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
 
 /* Presentation Area*/
 .tab-content {
