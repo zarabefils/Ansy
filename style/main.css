@@ -44,13 +44,14 @@ body {
 .dropdown-item:hover {
     background-color: aquamarine;
 }
-.carousel-block {
+.carousel-block .image-slider {
     width: 100%;
-    height: auto;
+    height: 85vh;
 }
 
 .quality-section {
-    background-color: aquamarine;
+    color: green;
+    background-image:url('https://image.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg');
 }
 
 .quality-image {
@@ -77,25 +78,34 @@ body {
 .actualite::before {
     content: '';
     width: 40%;
-    height: 5px;
+    height: 3px;
     position: absolute;
     top: 85%;
-    background-color: aquamarine;
-    border-radius: 30%;
+    background-color: green;
+    border-radius: 10%;
 }
 
 .actualite::after {
     content: '';
-    width: 100%;
+    width: 50%;
     height: .8px;
     position: absolute;
-    top: 95%;
-    background-color: aquamarine;
+    top: 90%;
+    background-color: green;
 }
 
 .card:hover {
-    transform: rotate(1deg);
+    transform: translateY(-7px);
     transition: all .2s ease-in-out;
+ 
+}
+
+.card:hover .card-img-top {
+    opacity: .9;
+    transition: all .2s ease-in-out;
+}
+
+.card {
     -webkit-box-shadow: -1px -4px 15px -5px rgba(0,0,0,0.84);
     -moz-box-shadow: -1px -4px 15px -5px rgba(0,0,0,0.84);
     box-shadow: -1px -4px 15px -5px rgba(0,0,0,0.84);
@@ -126,10 +136,11 @@ body {
 
 .carousel-control-next #carousel-control-next-icon{
     position: absolute;
-    top: -12%;
+    top: -11%;
     width: 25px;
-    height: 30px;
-    background-color: aquamarine;
+    height: 25px;
+    background-color: green;
+    right: 12px;
 }
 
 .carousel-control-prev {
@@ -141,14 +152,15 @@ body {
 }
 .carousel-control-prev #carousel-control-prev-icon{
     position: absolute;
-    top: -12%;
+    top: -11%;
     width: 25px;
-    height: 30px;
-    background-color: aquamarine;
+    height: 25px;
+    background-color: green;
+    right: 12px;
 }
 
 footer{
-    background-color: aquamarine;
+    background-image:url('https://image.freepik.com/free-photo/smooth-dark-blue-with-black-vignette-studio-well-use-as-background-business-report-digital-website-template_1258-748.jpg');
     padding: 2%;
 }
 
@@ -158,9 +170,11 @@ footer{
 }
 
 .copyright {
-    background-color: burlywood;
+    background-image:url('https://image.freepik.com/free-photo/blue-concrete-textured-wall_53876-94000.jpg');
     height: 2%;
     padding-left: 2%;
+    background-image:url('https://image.freepik.com/free-photo/blue-concrete-textured-wall_53876-94000.jpg');
+    color: #fefff2;
 }
 
 .follow {
