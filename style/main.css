@@ -18,6 +18,9 @@ body {
     height: 9%;
     z-index: 3;
     transition: all .3s ease-in-out;
+    box-shadow: 0px -3px 21px -2px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 0px -3px 21px -2px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px -3px 21px -2px rgba(0,0,0,0.67); 
   }
 
   .logo-image {
@@ -54,9 +57,12 @@ body {
     background-image:url('https://image.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg');
 }
 
-.quality-image {
-    width: 20%;
-    margin-left: 1.8rem;
+.quality-section p, .num {
+    color: black !important;
+}
+
+.quality-section i {
+    font-size: 2.5rem;
 }
 
 .num {
@@ -64,11 +70,16 @@ body {
     margin-bottom: 10px;
 }
 
-.card {
+.cards {
     border: none;
     cursor: pointer;
     transition: all .2s ease-out;
     width: 15rem;
+    
+}
+
+.cards a {
+    color: black;
 }
 
 .line {
@@ -94,25 +105,23 @@ body {
     background-color: green;
 }
 
-.card:hover {
+.cards:hover {
     transform: translateY(-7px);
     transition: all .2s ease-in-out;
  
 }
 
-.card:hover .card-img-top {
+.cards:hover .card-img-top {
     opacity: .9;
     transition: all .2s ease-in-out;
 }
 
-.card {
-    -webkit-box-shadow: -1px -4px 15px -5px rgba(0,0,0,0.84);
-    -moz-box-shadow: -1px -4px 15px -5px rgba(0,0,0,0.84);
-    box-shadow: -1px -4px 15px -5px rgba(0,0,0,0.84);
+.cards .card-img-top {
+    height: 8.5rem;
 }
 
-.card .card-img-top {
-    height: 13rem;
+.cards .card-text {
+    text-overflow: clip;
 }
 .menu-lang {
     width: 1px;
@@ -159,10 +168,23 @@ body {
     right: 12px;
 }
 
-footer{
+footer {
     background-image:url('https://image.freepik.com/free-photo/smooth-dark-blue-with-black-vignette-studio-well-use-as-background-business-report-digital-website-template_1258-748.jpg');
-    padding: 2%;
-   }
+    padding: 2%;   
+}
+
+footer li {
+    list-style-type: none;
+    
+}
+
+footer a {
+    color: #E1DEE9;  
+}
+
+footer li a {
+    color: #E1DEE9;
+}
 
 .footer-line {
     width: 50%;
@@ -191,7 +213,8 @@ footer{
     padding-bottom:56.25%;
     position:relative;
     height:0;
-    }
+}
+
 .map-container-6 iframe{
     left:0;
     top:0;
@@ -201,6 +224,18 @@ footer{
     }
 
 /* Presentation Area*/
+.space {
+    margin: 4rem;
+}
+
+#pills-tab {
+    background-color: aliceblue;
+}
+
+#pills-tab .active {
+    background-color: #29BC4E;
+}
+
 .tab-content {
     background-color: aliceblue;
     padding: 1px 0 0 5px;
@@ -210,6 +245,11 @@ footer{
     list-style-type: none;
 }
 
+/* EDD Area*/
+.edd {
+    padding: 1rem;
+    background-color:  aliceblue;
+}
 /* Réalisation Area*/
 
 /* Personnel Area*/
@@ -353,8 +393,8 @@ footer{
         background-color: aquamarine;
     }
     
-    .quality-image {
-        width: 20%;
+    .quality-section p {
+        color: black !important;
     }
     
     .num {
