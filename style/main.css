@@ -15,7 +15,7 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
-    height: 9%;
+    height: 3rem;
     z-index: 3;
     transition: all .3s ease-in-out;
     box-shadow: 0px -3px 21px -2px rgba(0,0,0,0.67);
@@ -24,19 +24,20 @@ body {
   }
 
   .logo-image {
-      width: 67%;
+      margin-top: -1rem;
+      width: 80%;
       transition: all .3s ease-in-out;
   }
 
   header {
       background-color: white;
-      height: 4.5rem;
+      height: 5rem;
       transition: all .3s ease-in-out;
   }
 
   nav{
       margin-top: -4.5rem;
-      transition: all .3s ease-out;
+      transition: all .3s ease-in-out;
   }
 
 .dropdown-menu {
@@ -48,8 +49,8 @@ body {
     background-color: green;
 }
 .carousel-block .image-slider {
-    width: 100%;
-    height: 85vh;
+    width: 100vw;
+    height: 90vh;
 }
 
 .quality-section {
@@ -62,6 +63,11 @@ body {
 }
 
 .quality-section i {
+    font-size: 2.5rem;
+}
+
+.project i {
+    color: #29BC4E;
     font-size: 2.5rem;
 }
 
@@ -179,13 +185,22 @@ footer li {
 }
 
 footer a {
-    color: #E1DEE9;  
+    color:black;  
 }
 
 footer li a {
-    color: #E1DEE9;
+    color:black;
 }
 
+footer a:hover {
+    color: #E1DEE9;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    text-decoration: none;
+    color: #E1DEE9; 
+}
 .footer-line {
     width: 50%;
     background-color:white;
@@ -246,6 +261,15 @@ footer li a {
 }
 
 /* EDD Area*/
+#accordionExample {
+    background-color:aquamarine;
+
+}
+
+#accordionExample button:hover {
+    text-decoration: none;
+}
+
 .edd {
     padding: 1rem;
     background-color:  aliceblue;
@@ -255,12 +279,34 @@ footer li a {
 /* Personnel Area*/
 
 .profile .card {
-    -webkit-box-shadow: 2px 2px 14px 0px rgba(50, 50, 50, 0.37);
-    -moz-box-shadow:    2px 2px 14px 0px rgba(50, 50, 50, 0.37);
-    box-shadow:         2px 2px 14px 0px rgba(50, 50, 50, 0.37); 
+    padding: 0;
+    font-size: .9rem; 
+    box-shadow: 1px 2px 11px -9px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 1px 2px 11px -9px rgba(0,0,0,0.4);
+    -moz-box-shadow: 1px 2px 11px -9px rgba(0,0,0,0.4);
+}
+
+.profile .card i {
+    color: #29BC4E;
+}
+
+.profile a:hover {
+    text-decoration: none;
+    color: #29BC4E;
+}
+
+.card .card-img-top {
+    margin-top: -2rem;
+    width: 7rem;
+    border-radius: 50%;
+    border: 1px solid green;
 }
 
 /* Partenaires Area*/
+
+.img-partenaire {
+    width: 8rem;
+}
 
 @media (max-width: 575.98px) {}
 
