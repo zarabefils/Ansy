@@ -258,16 +258,15 @@ footer li a:hover {
     margin: 4rem;
 }
 
-#pills-tab {
-    background-color: aliceblue;
-}
 
 #pills-tab .active {
     background-color: #29BC4E;
 }
 
+#pills-tab .nav-link {
+    color: black;
+}
 .tab-content {
-    background-color: aliceblue;
     padding: 1px 0 0 5px;
 }
 
