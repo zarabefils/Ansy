@@ -13,148 +13,161 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="/style/main.css">
   <title>ANSY</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-  <header class="head">
-    <div class="container-fluid">
-      <div class="row">
-        <a class="navbar-brand col-md-2 offset-md-1 col-sm-3 pt-md-3" href="index.html"><img src="/images/logo/ansy.PNG"
-            alt="Logo" class="logo"> </a>
-        <nav class="navbar navbar-expand-lg navbar-light col-md-7 offset-md-3 offset-lg-4">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link active mr-4 mr-lg-2" href="index.html">Accueil <span
-                  class="sr-only">(current)</span></a>
-              <div class="dropdown">
-                <a class="nav-item nav-link apropos dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  A propos
-                </a>
-
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <a class="dropdown-item" href="presentation.html">Presentation</a>
-                  <a class="dropdown-item" href="historique.html">Historique</a>
-                  <a class="dropdown-item" href="organigramme.html">Organigramme</a>
+    <header class="head">
+        <div class="container-fluid">
+          <div class="row">
+            <a class="navbar-brand col-md-2 offset-md-1 col-sm-3 pt-md-3" href="index.html"><img src="/images/logo/ansy.PNG"
+                alt="Logo" class="logo"> </a>
+            <nav class="navbar navbar-expand-lg navbar-light col-md-7 offset-md-3 offset-lg-4">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link active mr-4 mr-lg-2" href="index.html">Accueil <span
+                      class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link apropos" href="/presentation.html" id="dropdownMenuLink">
+                    Presentation
+                  </a>
+                  <div class="dropdown ml-md-4 ml-lg-2">
+                    <a class="nav-item nav-link apropos dropdown-toggle" href="#" role="button" id="dropdownMenuLink1"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Services
+                    </a>
+    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+                      <a class="dropdown-item" href="edd.html">Environnement et Developpement Durable</a>
+                      <a class="dropdown-item" href="tdi.html">Télécommunications et Développement Informatique</a>
+                      <a class="dropdown-item" href="hgep.html">Hydraulique Genie civil, Energie et Procédé</a>
+                      <a class="dropdown-item" href="lgp.html">Logistique et Gestion de Projets</a>
+                    </div>
+                  </div>
+                  <a class="nav-item nav-link ml-md-4 ml-lg-2" href="realisation.html">Réalisations</a>
+                  <div class="dropdown ml-md-4 ml-lg-2">
+                    <a class="nav-item nav-link apropos dropdown-toggle" href="#" role="button" id="dropdownMenuLink1"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Ressources
+                    </a>
+    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+                      <a class="dropdown-item" href="personnel.html">Personnels</a>
+                      <a class="dropdown-item" href="materiel.html">Materiels</a>
+                    </div>
+                  </div>
+                  <a class="nav-item nav-link ml-md-4 ml-lg-2" href="partenaire.html">Partenaires</a>
+                  <a class="nav-item nav-link ml-md-4 ml-lg-2" href="contact.html">Contact</a>
                 </div>
               </div>
-              <div class="dropdown ml-md-4 ml-lg-2">
-                <a class="nav-item nav-link apropos dropdown-toggle" href="#" role="button" id="dropdownMenuLink1"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Services
-                </a>
-
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
-                  <a class="dropdown-item" href="edd.html">Environnement et Developpement Durable</a>
-                  <a class="dropdown-item" href="tdi.html">Télécommunications et Développement Informatique</a>
-                  <a class="dropdown-item" href="hgep.html">Hydraulique Genie civil, Energie et Procédé</a>
-                  <a class="dropdown-item" href="lgp.html">Logistique et Gestion de Projets</a>
-                </div>
-              </div>
-              <a class="nav-item nav-link ml-md-4 ml-lg-2" href="realisation.html">Réalisations</a>
-              <div class="dropdown ml-md-4 ml-lg-2">
-                <a class="nav-item nav-link apropos dropdown-toggle" href="#" role="button" id="dropdownMenuLink1"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Ressources
-                </a>
-
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
-                  <a class="dropdown-item" href="personnel.html">Personnels</a>
-                  <a class="dropdown-item" href="materiel.html">Materiels</a>
-                </div>
-              </div>
-              <a class="nav-item nav-link ml-md-4 ml-lg-2" href="partenaire.html">Partenaires</a>
-              <a class="nav-item nav-link ml-md-4 ml-lg-2" href="contact.html">Contact</a>
-            </div>
+            </nav>
           </div>
-        </nav>
-      </div>
-    </div>
-  </header>
+        </div>
+      </header>
 
+  <div class="space"></div>
 
-  <div class="container">
-    <p><h2>Personnels</h2></p>
+  <div class="container edd">
+    <p>
+      <h2 class="text-success">Personnels</h2>
+    </p>
     <p>Nous disposons d'un groupe de personnels qualifies par lesquels: les experts, ingenieurs,architecte etc.. </p>
     <p>Profile de chaque personnel:</p>
-    <div class="row profile mb-4">
-      <div class="card mr-4">
-        <center><img class="card-img-top" src="/images/ava1.png" alt="Card image" style="width:40%;"></center> 
-        <div class="card-body">
-          <h4 class="card-title text-justify">SAIBOU ABDOULAHI</h4>
-          <p class="card-text text-justify">Ingenieur genie logiciel et programmeur<br>11ans d'Experience</p>
-          <center><a href="#" class="btn btn-primary">See Profile</a></center> 
-        </div>
-      </div>
-      <div class="card mr-4">
-        <center><img class="card-img-top" src="/images/ava1.png" alt="Card image" style="width:50%"></center> 
-        <div class="card-body">
-          <h4 class="card-title">OUMAROU MOUSSA YAYA</h4>
-          <p class="card-text">Expert en reseau et Telecom 16ans d'Experience</p>
-         <center><a href="#" class="btn btn-primary">See Profile</a></center> 
-        </div>
-      </div>
-      <div class="card mr-4"
-      >
-        <center><img class="card-img-top" src="/images/ava1.png" alt="Card image" style="width:50%"></center> 
-        <div class="card-body">
-          <h4 class="card-title">LAILA FATOUMATA MOUSSA</h4>
-          <p class="card-text">Ingenieur de Travaux Informatique en genie logiciel 4ans d'Experience</p>
-          <center><a href="#" class="btn btn-primary">See Profile</a></center> 
-        </div>
-      </div>
-      <div class="card mr-4">
-          <center><img class="card-img-top" src="/images/ava1.png" alt="Card image" style="width:40%;"></center> 
-          <div class="card-body">
-            <h4 class="card-title text-justify">ADAM YAYA MOUSSA</h4>
-            <p class="card-text text-justify">Technicien Reseau et Telecom 5ans d'Experience</p>
-            <center><a href="#" class="btn btn-primary">See Profile</a></center> 
-          </div>
-        </div>
-    </div>
-    <div class="row profile mb-4">
-        <div class="card mr-4">
-          <center><img class="card-img-top" src="/images/ava1.png" alt="Card image" style="width:50%"></center> 
-          <div class="card-body">
-            <h4 class="card-title">SAIBOU ABDOULAYE</h4>
-            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-           <center><a href="#" class="btn btn-primary">See Profile</a></center> 
-          </div>
-        </div>
-        <div class="card mr-4">
-          <center><img class="card-img-top" src="/images/ava1.png" alt="Card image" style="width:50%"></center> 
-          <div class="card-body">
-            <h4 class="card-title">SAIBOU ABDOULAYE</h4>
-            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-            <center><a href="#" class="btn btn-primary">See Profile</a></center> 
-          </div>
-        </div>
-        <div class="card mr-4">
-            <center><img class="card-img-top" src="/images/ava1.png" alt="Card image" style="width:50%"></center> 
-            <div class="card-body">
-              <h4 class="card-title">SAIBOU ABDOULAYE</h4>
-              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-              <center><a href="#" class="btn btn-primary">See Profile</a></center> 
-            </div>
-          </div>
-          <div class="card mr-4">
-              <center><img class="card-img-top" src="/images/ava1.png" alt="Card image" style="width:50%"></center> 
-              <div class="card-body">
-                <h4 class="card-title">SAIBOU ABDOULAYE</h4>
-                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                <center><a href="#" class="btn btn-primary">See Profile</a></center> 
+    <div class="space"></div>
+    <div class="row profile mb-4 p-1 offset-1">
+      <p>
+        <div class="card col-md-2 mr-3">
+          <center><img class="card-img-top" src="/images/ava1.png" alt="Card image"></center>
+          <div class="card-body p-2">
+            <h6 class="card-title text-center mt-2"> <strong> Ing. SAIBOU ABDOULAHI</strong></h6>
+            <p><i class="fas fa-briefcase mr-2 mt-2"></i>Genie logiciel </p>
+            <center><a class="fas fa-plus mr-1" data-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+              </a></center>
+            <div class="collapse pt-2" id="collapseExample">
+              <div class="body">
+                <p><i class="fas fa-briefcase mr-2"></i>Programmeur </p>
+                <p><i class="far fa-id-card mr-2"></i> +2370000000 </p>
+                <p><i class="far fa-envelope mr-2"></i>abc@xyz.com </p>
               </div>
             </div>
-    </div>
+          </div>
+        </div>
+        <div class="card col-md-2 mr-3">
+          <center><img class="card-img-top" src="/images/ava1.png" alt="Card image"></center>
+          <div class="card-body p-2">
+            <h6 class="card-title text-center mt-2"> <strong> Ing. SAIBOU ABDOULAHI</strong></h6>
+            <p><i class="fas fa-briefcase mr-2 mt-2"></i>Genie logiciel </p>
+            <center><a class="fas fa-plus mr-1" data-toggle="collapse" href="#collapseExample1" role="button"
+                aria-expanded="false" aria-controls="collapseExample1" data-target="#collapseExample1">
+              </a></center>
+            <div class="collapse pt-2" id="collapseExample1">
+              <div class="body">
+                <p><i class="fas fa-briefcase mr-2"></i>Programmeur </p>
+                <p><i class="far fa-id-card mr-2"></i> +2370000000 </p>
+                <p><i class="far fa-envelope mr-2"></i>abc@xyz.com </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-2 mr-3">
+          <center><img class="card-img-top" src="/images/ava1.png" alt="Card image"></center>
+          <div class="card-body p-2">
+            <h6 class="card-title text-center mt-2"> <strong> Ing. SAIBOU ABDOULAHI</strong></h6>
+            <p><i class="fas fa-briefcase mr-2 mt-2"></i>Genie logiciel </p>
+            <center><a class="fas fa-plus mr-1" data-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+              </a></center>
+            <div class="collapse multi-collapse pt-2" id="collapseExample">
+              <div class="body">
+                <p><i class="fas fa-briefcase mr-2"></i>Programmeur </p>
+                <p><i class="far fa-id-card mr-2"></i> +2370000000 </p>
+                <p><i class="far fa-envelope mr-2"></i>abc@xyz.com </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-2 mr-3">
+          <center><img class="card-img-top" src="/images/ava1.png" alt="Card image"></center>
+          <div class="card-body p-2">
+            <h6 class="card-title text-center mt-2"> <strong> Ing. SAIBOU ABDOULAHI</strong></h6>
+            <p><i class="fas fa-briefcase mr-2 mt-2"></i>Genie logiciel </p>
+            <center><a class="fas fa-plus mr-1" data-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+              </a></center>
+            <div class="collapse multi-collapse pt-2" id="collapseExample">
+              <div class="body">
+                <p><i class="fas fa-briefcase mr-2"></i>Programmeur </p>
+                <p><i class="far fa-id-card mr-2"></i> +2370000000 </p>
+                <p><i class="far fa-envelope mr-2"></i>abc@xyz.com </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-2 mr-3">
+          <center><img class="card-img-top" src="/images/ava1.png" alt="Card image"></center>
+          <div class="card-body p-2">
+            <h6 class="card-title text-center mt-2"> <strong> Ing. SAIBOU ABDOULAHI</strong></h6>
+            <p><i class="fas fa-briefcase mr-2 mt-2"></i>Genie logiciel </p>
+            <center><a class="fas fa-plus mr-1" data-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+              </a></center>
+            <div class="collapse multi-collapse pt-2" id="collapseExample">
+              <div class="body">
+                <p><i class="fas fa-briefcase mr-2"></i>Programmeur </p>
+                <p><i class="far fa-id-card mr-2"></i> +2370000000 </p>
+                <p><i class="far fa-envelope mr-2"></i>abc@xyz.com </p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </p>
+    </div> 
   </div>
 
+    <div class="space"></div>
 
   <footer class="pt-lg-4 pt-md-2">
     <hr class="footer-line">
@@ -164,7 +177,7 @@
           <a href="index.html">Accueil</a>
         </div>
         <div class="col-md-2 col-sm-3 col-xs-6">
-          A propos
+          Presentation
           <ul>
             <li><a href="presentation.html">Presentation</a></li>
             <li><a href="historique.html">Historique</a></li>
@@ -177,7 +190,7 @@
             <li><a href="edd.html">EDD</a></li>
             <li><a href="tdi.html">TDI</a></li>
             <li><a href="hgep.html">HGEP</a></li>
-            <li><a href="lgp.html">LGEP</a></li>
+            <li><a href="lgp.html">LGP</a></li>
           </ul>
         </div>
         <div class="col-md-2 col-sm-2 col-xs-2">

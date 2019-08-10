@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Contact</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="/style/main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
+
 <body>
     <header class="head">
         <div class="container-fluid">
           <div class="row">
-            <a class="navbar-brand col-md-2 offset-md-1 col-sm-3 pt-md-3" href="index.html"><img src="/images/logo/ansy.PNG" alt="Logo"
-                class="logo"> </a>
+            <a class="navbar-brand col-md-2 offset-md-1 col-sm-3 pt-md-3" href="index.html"><img src="/images/logo/ansy.PNG"
+                alt="Logo" class="logo"> </a>
             <nav class="navbar navbar-expand-lg navbar-light col-md-7 offset-md-3 offset-lg-4">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,18 +29,9 @@
                 <div class="navbar-nav">
                   <a class="nav-item nav-link active mr-4 mr-lg-2" href="index.html">Accueil <span
                       class="sr-only">(current)</span></a>
-                  <div class="dropdown">
-                    <a class="nav-item nav-link apropos dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      A propos
-                    </a>
-    
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                      <a class="dropdown-item" href="presentation.html">Presentation</a>
-                      <a class="dropdown-item" href="historique.html">Historique</a>
-                      <a class="dropdown-item" href="organigramme.html">Organigramme</a>
-                    </div>
-                  </div>
+                  <a class="nav-item nav-link apropos" href="/presentation.html" id="dropdownMenuLink">
+                    Presentation
+                  </a>
                   <div class="dropdown ml-md-4 ml-lg-2">
                     <a class="nav-item nav-link apropos dropdown-toggle" href="#" role="button" id="dropdownMenuLink1"
                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -73,49 +65,45 @@
           </div>
         </div>
       </header>
+  <div class="space"></div>
+  <!--Section: Contact v.1-->
+  <div class="container edd">
+    <section class="section pb-5">
 
-<!--Section: Contact v.1-->
-<section class="section pb-5">
+      <!--Section heading-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-md-4">
 
-  <!--Section heading-->
-  <h2 class="section-heading h1 pt-4 text-center">Contact us</h2>
-  <!--Section description-->
-  <p class="section-description pb-4"></p>
-
-  <div class="row-md-9">
-
-    <!--Grid column-->
-    <div class="col-lg-4 mb-4 offset-3">
-
-      <!--Form with header-->
+          <!--Form with header-->
           <div class="form-header blue accent-1">
-            <h3><i class="fas fa-envelope"></i> Ecrivez-nous:</h3>
+            <h3 class="text-success"> Ecrivez-nous:</h3>
           </div>
 
-          <p>Vous avez des questions ?.</p>
+          <p class="text-success">Vous avez des questions ?.</p>
           <br>
 
           <!--Body-->
           <div class="md-form">
-            <i class="fas fa-user prefix grey-text"></i>
+            
             <input type="text" id="form-name" class="form-control">
             <label for="form-name">Your name</label>
           </div>
 
           <div class="md-form">
-            <i class="fas fa-envelope prefix grey-text"></i>
+            
             <input type="text" id="form-email" class="form-control">
             <label for="form-email">Your email</label>
           </div>
 
-          <div class="md-form">
-            <i class="fas fa-tag prefix grey-text"></i>
+          <div class="md-form mb-2">
+            
             <input type="text" id="form-Subject" class="form-control">
-            <label for="form-Subject">Subject</label>
+            <label for="form-Subject mt-2">Subject</label>
           </div>
 
           <div class="md-form">
-            <i class="fas fa-pencil-alt prefix grey-text"></i>
+            
             <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
             <label for="form-text">Your messages</label>
           </div>
@@ -125,50 +113,48 @@
           </div>
 
         </div>
+        <!--Grid column-->
+        <div class="col-md-8">
 
+          <!--Google map-->
+          <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126631.87079459876!2d13.505866459287013!3d7.326247285454542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10efe2254719ac6b%3A0xa907c3abd1a34b31!2zTmdhb3VuZMOpcsOp!5e0!3m2!1sfr!2scm!4v1564695136618!5m2!1sfr!2scm"
+              width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
 
-      <!--Form with header-->
-  
-    <!--Grid column-->
+          <br>
+          <!--Buttons-->
+          <div class="row text-center">
+            <div class="col-md-4">
+              <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+              <p>Ngaoundere</p>
+              <p>Agrement N°00000020</p>
+            </div>
 
-    <!--Grid column-->
-    <div class="col-lg-7 offset-md-2">
+            <div class="col-md-4">
+              <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
+              <p>+237 678 63 53 88 <br> 696 03 95 44</p>
+              <p>BP: 593 Ngaoundéré - Cameroun</p>
+            </div>
 
-      <!--Google map-->
-      <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126631.87079459876!2d13.505866459287013!3d7.326247285454542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10efe2254719ac6b%3A0xa907c3abd1a34b31!2zTmdhb3VuZMOpcsOp!5e0!3m2!1sfr!2scm!4v1564695136618!5m2!1sfr!2scm" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="col-md-4">
+              <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
+              <p>ansy@gmail.com</p>
+              <p>ansy@yahoo.com</p>
+            </div>
+          </div>
+
+        </div>
+        <!--Grid column-->
       </div>
 
-      <br>
-      <!--Buttons-->
-      <div class="row text-center">
-        <div class="col-md-4">
-          <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
-          <p>Ngaoundere</p>
-          <p>Agrement N°00000020</p>
-        </div>
-
-        <div class="col-md-4">
-          <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
-          <p>+237 678 63 53 88 / 696 03 95 44</p>
-          <p>BP: 593 Ngaoundéré - Cameroun</p>
-        </div>
-
-        <div class="col-md-4">
-          <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
-          <p>ansy@gmail.com</p>
-          <p>ansy@yahoo.com</p>
-        </div>
-      </div>
-
-    </div>
-    <!--Grid column-->
-
+    </section>
   </div>
+  <!--Section: Contact v.1-->
 
-</section>
-<!--Section: Contact v.1-->
-<footer class="pt-lg-4 pt-md-2">
+
+  <footer class="pt-lg-4 pt-md-2">
     <hr class="footer-line">
     <div class="container-fluid">
       <div class="row">
@@ -176,49 +162,49 @@
           <a href="index.html">Accueil</a>
         </div>
         <div class="col-md-2 col-sm-3 col-xs-6">
-          A propos
+         Presentation
           <ul>
-              <li><a href="presentation.html">Presentation</a></li>
-              <li><a href="historique.html">Historique</a></li>
-              <li><a href="organigramme.html">Organigramme</a></li>
+            <li><a href="presentation.html">Presentation</a></li>
+            <li><a href="historique.html">Historique</a></li>
+            <li><a href="organigramme.html">Organigramme</a></li>
           </ul>
         </div>
         <div class="col-md-2 col-sm-4 col-xs-6">
           Services
           <ul>
-              <li><a href="edd.html">EDD</a></li>
-              <li><a href="tdi.html">TDI</a></li>
-              <li><a href="hgep.html">HGEP</a></li>
-              <li><a href="lgp.html">LGEP</a></li>
+            <li><a href="edd.html">EDD</a></li>
+            <li><a href="tdi.html">TDI</a></li>
+            <li><a href="hgep.html">HGEP</a></li>
+            <li><a href="lgp.html">LGP</a></li>
           </ul>
         </div>
         <div class="col-md-2 col-sm-2 col-xs-2">
-            <a href="realisation.html">Realisation</a>
+          <a href="realisation.html">Realisation</a>
         </div>
         <div class="col-md-2 col-sm-4 col-xs-6">
           Ressources
           <ul>
-              <li><a href="personnel.html">Personnels</a></li>
-              <li><a href="materiel.html">Materiels</a></li>
+            <li><a href="personnel.html">Personnels</a></li>
+            <li><a href="materiel.html">Materiels</a></li>
           </ul>
         </div>
         <div class="col-md-2 col-sm-2 col-xs-2">
-            <a href="partenaire.html">Partenaires</a>
+          <a href="partenaire.html">Partenaires</a>
         </div>
         <div class="col-md-1 col-sm-4 col-xs-6">
-            <a href="contact.html">Contact </span></a>
+          <a href="contact.html">Contact </span></a>
         </div>
       </div>
     </div>
   </footer>
   <div class="container-fluid">
-    <div class="row copyright">   
+    <div class="row copyright">
       <p class="col-md-2 pt-3">&copy; copyright 2019</p>
-        <div class="follow col-md-1 pt-3 offset-md-7">
-            <a href="#"><i class="fab fa-facebook-f "></i></a>  
-            <a href="#"><i class="fab fa-twitter ml-3"></i></a>
-            <a href="#"><i class="fab fa-instagram ml-3"></i></a>
-        </div>     
+      <div class="follow col-md-1 pt-3 offset-md-7">
+        <a href="#"><i class="fab fa-facebook-f "></i></a>
+        <a href="#"><i class="fab fa-twitter ml-3"></i></a>
+        <a href="#"><i class="fab fa-instagram ml-3"></i></a>
+      </div>
       <p class="col-md-2 pt-3">ANDAL & SYNERGY</p>
     </div>
   </div>
@@ -239,6 +225,6 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
   <script src="/js/main.js"></script>
 
-</body>      
+</body>
 
 </html>
