@@ -31,22 +31,13 @@
             <div class="navbar-nav">
               <a class="nav-item nav-link active mr-4 mr-lg-2" href="index.html">Accueil <span
                   class="sr-only">(current)</span></a>
-              <div class="dropdown">
-                <a class="nav-item nav-link apropos dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  A propos
-                </a>
-
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <a class="dropdown-item" href="presentation.html">Presentation</a>
-                  <a class="dropdown-item" href="historique.html">Historique</a>
-                  <a class="dropdown-item" href="organigramme.html">Organigramme</a>
-                </div>
-              </div>
+              <a class="nav-item nav-link apropos" href="/presentation.html" id="dropdownMenuLink">
+                Presentation
+              </a>
               <div class="dropdown ml-md-4 ml-lg-2">
                 <a class="nav-item nav-link apropos dropdown-toggle" href="#" role="button" id="dropdownMenuLink1"
                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Services
+                  Activités
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
@@ -78,21 +69,33 @@
   </header>
 
   <div class="space"></div>
-  <div class="container edd">
-      <p><h3><strong>Service de Logistique et Gestion de Projects(LGP)</strong></h3></p>
-      <p>A le mérite d’être aux premières lignes des grandes réalisations. 
-        Les équipes d’ingénieurs et de techniciens chevronnés de ANSY 
-        sont mis à dispositions pour garantir une bonne exécution et un bon déroulement des 
-        projets et travaux tout en restant dans les conditions optimales d’exécution, 
-        en respectant les normes et règles de sécurité du personnel, 
-        des biens et matériels et du patrimoine immatériel. 
-      </p>
-      <div class="row">
-          <div class="col-md-0">
-            <img src="images/lgp.jpeg" class="card-img" alt="...">
+  <div class="container lgp">
+    <p>
+      <h3><strong>Service de Logistique et Gestion de Projects(LGP)</strong></h3>
+    </p>
+    <p>A le mérite d’être aux premières lignes des grandes réalisations.
+      Les équipes d’ingénieurs et de techniciens chevronnés de ANSY
+      sont mis à dispositions pour garantir une bonne exécution et un bon déroulement des
+      projets et travaux tout en restant dans les conditions optimales d’exécution,
+      en respectant les normes et règles de sécurité du personnel,
+      des biens et matériels et du patrimoine immatériel.
+    </p>
+    <div class="row p-3">
+      <div class="col-md-6">
+        <img src="images/lgp.jpeg" class="card-img" alt="..." height="300">
+      </div>
+      <div class="col-md-4 card-chiffre offset-1 p-3">
+        <div class="title text-center">Nos chiffres</div>
+        <hr class="hr-title">
+        <div class="card-chiffre__body p-3">
+          <p><i class="fas fa-square mr-2"></i>jhl</p>
+          <p><i class="fas fa-square mr-2"></i>jhl</p>
+          <p><i class="fas fa-square mr-2"></i>jhl</p>
+          <p><i class="fas fa-square mr-2"></i>jhl</p>
         </div>
       </div>
-  
+    </div>
+
     <div class="accordion" id="accordionExample">
       <div class="row-md-3 p-4">
         <div class="col-md-0">
@@ -101,22 +104,26 @@
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne"
                 aria-expanded="false" aria-controls="collapseOne">
                 <i class="fas fa-briefcase"></i><strong> Assistance Technique et suivi des travaux</strong>
-              
+
               </button>
             </h2>
           </div>
           <div id="collapseOne" class="collapse-show" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
-                <p><strong><h4>Dans le domaine de l'Assistance technique et suivi des travaux :</h4></strong></p>
-                
-                 <ul class="text-align=left p-2 offset-md-1"> 
-                    <li>Mise a disposition d'equipes d'ingenieurs et techniciens pour le suivi sur le terrain de projet(travaux de genie civil
-                       ,Hydraulique,hydro agricole et pastorale,routes,plan de gestion environnemental,etc) ; </li>
-                    <li>Mise à disposition de moyens logistiques de terrain (Logements, véhicules avec chauffeurs, guides de sites, traducteurs linguistiques, 
-                        assistante de rédaction sur chantier, agents de courses, etc. ; </li>
-                    <li>Etc</li>
-                  </ul>
-              </div>
+              <p><strong>
+                  <h4>Dans le domaine de l'Assistance technique et suivi des travaux :</h4>
+                </strong></p>
+
+              <ul class="text-align=left p-2 offset-md-1">
+                <li>Mise a disposition d'equipes d'ingenieurs et techniciens pour le suivi sur le terrain de
+                  projet(travaux de genie civil
+                  ,Hydraulique,hydro agricole et pastorale,routes,plan de gestion environnemental,etc) ; </li>
+                <li>Mise à disposition de moyens logistiques de terrain (Logements, véhicules avec chauffeurs, guides de
+                  sites, traducteurs linguistiques,
+                  assistante de rédaction sur chantier, agents de courses, etc. ; </li>
+                <li>Etc</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div class="col-md-0">
@@ -130,19 +137,22 @@
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
             <div class="card-body">
-                <p><br><strong><h4>Logistique de chantier :</h4></strong></p>
-                    <ul class="text-align=left p-2 offset-md-1">  
-                        <li>Mise a disposition de moyens logistiques de terrain(Logements
-                             ,véhicules avec chauffeurs, guides de sites, traducteurs linguistiques, assistante de rédaction sur chantier, agents de courses, etc. ; ); </li>
-                        <li>Etc.</li>
-                </ul>
+              <p><br><strong>
+                  <h4>Logistique de chantier :</h4>
+                </strong></p>
+              <ul class="text-align=left p-2 offset-md-1">
+                <li>Mise a disposition de moyens logistiques de terrain(Logements
+                  ,véhicules avec chauffeurs, guides de sites, traducteurs linguistiques, assistante de rédaction sur
+                  chantier, agents de courses, etc. ; ); </li>
+                <li>Etc.</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-    <div class="space"></div>
+  <div class="space"></div>
   <footer class="pt-lg-4 pt-md-2">
     <hr class="footer-line">
     <div class="container-fluid">
@@ -159,7 +169,7 @@
           </ul>
         </div>
         <div class="col-md-2 col-sm-4 col-xs-6">
-          Services
+          Activités
           <ul>
             <li><a href="edd.html">EDD</a></li>
             <li><a href="tdi.html">TDI</a></li>
@@ -184,7 +194,7 @@
           <a href="contact.html">Contact </span></a>
         </div>
       </div>
-      </div>
+    </div>
   </footer>
   <div class="container-fluid">
     <div class="row copyright">
