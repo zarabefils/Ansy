@@ -56,6 +56,7 @@ nav {
 .quality-section {
     color: green;
     background-image: url('https://static.bhphoto.com/images/images2000x2000/1292836852_562131.jpg');
+    
 }
 
 .accroche {
@@ -311,6 +312,7 @@ footer li a:hover {
 /* Personnel Area*/
 
 .profile .card {
+    margin-top: 8%;
     padding: 0;
     font-size: .9rem;
     box-shadow: 1px 2px 11px -9px rgba(0, 0, 0, 0.4);
@@ -395,6 +397,7 @@ footer li a:hover {
         width: 100vw;
     }
     .logo {
+        margin-left: 50vw;
         width: 45%;
         height: 75%;
         transition: all .3s ease-in-out;
@@ -403,8 +406,6 @@ footer li a:hover {
     .sticky {
         position: relative;
         width: 100%;
-        z-index: 3;
-        transition: all .3s ease-in-out;
         box-shadow: 0px -3px 21px -2px rgba(0, 0, 0, 0.67);
         -webkit-box-shadow: 0px -3px 21px -2px rgba(0, 0, 0, 0.67);
         -moz-box-shadow: 0px -3px 21px -2px rgba(0, 0, 0, 0.67);
@@ -412,6 +413,7 @@ footer li a:hover {
     
     .logo-image {
         transition: all .3s ease-in-out;
+        display: none;
     }
     
     header {
@@ -423,14 +425,9 @@ footer li a:hover {
  
     
     nav {
-        position: relative;
-        left: 60vw;
+        left: 1vw;
         transition: all .3s ease-in-out;
     } 
-
-    .navbar-nav {
-        right: 100%;
-    }
 
     .carousel-control-next {
         position: absolute;
@@ -491,6 +488,14 @@ footer li a:hover {
     .follow {
         display: none;
         flex-direction: row;
+    }
+    .profile .card {
+        margin-top: 15%;
+        padding: 0;
+        font-size: .9rem;
+        box-shadow: 1px 2px 11px -9px rgba(0, 0, 0, 0.4);
+        -webkit-box-shadow: 1px 2px 11px -9px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 1px 2px 11px -9px rgba(0, 0, 0, 0.4);
     }
 }
 
