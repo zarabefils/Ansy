@@ -23,7 +23,7 @@ body {
 }
 
 .logo-image {
-    margin-top: -1rem;
+    margin-top: -.8rem;
     width: 80%;
     transition: all .3s ease-in-out;
 }
@@ -35,7 +35,7 @@ header {
 }
 
 nav {
-    margin-top: -4.5rem;
+    margin-top: -5rem;
     transition: all .3s ease-in-out;
 }
 
@@ -373,356 +373,6 @@ footer li a:hover {
     background-color: rgb(247, 245, 253);
 }
 
-@media (max-width: 575.98px) {}
-
-@media (max-width: 767.98px) {
-    .navbar-toggler {
-        margin-left: 45rem;
-        margin-top: -5px;
-    }
-    .carousel-control-next {
-        position: absolute;
-        top: -12%;
-        width: 25px;
-        height: 30px;
-        display: none;
-    }
-    .carousel-control-next #carousel-control-next-icon {
-        position: absolute;
-        top: -12%;
-        width: 25px;
-        height: 30px;
-        background-color: aquamarine;
-        display: none;
-    }
-    .carousel-control-prev {
-        position: absolute;
-        top: -12%;
-        left: 55%;
-        width: 25px;
-        height: 30px;
-        display: none;
-    }
-    .carousel-control-prev #carousel-control-prev-icon {
-        position: absolute;
-        top: -12%;
-        width: 25px;
-        height: 30px;
-        background-color: aquamarine;
-        display: none;
-    }
-    .actualite::after {
-        content: '';
-        width: 100%;
-        height: .8px;
-        position: absolute;
-        top: 95%;
-        background-color: aquamarine;
-        display: none;
-    }
-    .sticky {
-        position: fixed;
-        width: 100%;
-        top: 0;
-        height: 7%;
-        z-index: 3;
-        transition: all .3s ease-in-out;
-        display: none;
-    }
-    .logo-image {
-        margin-top: -1rem;
-        width: 95%;
-        height: 80%;
-        transition: all .3s ease-in-out;
-        display: none
-    }
-}
-
-@media (max-width: 991.98px) {
-    .logo {
-        width: 100%;
-        height: 75%;
-        transition: all .3s ease-in-out;
-    }
-    .sticky {
-        position: fixed;
-        width: 100%;
-        top: 0;
-        height: 7%;
-        z-index: 3;
-        transition: all .3s ease-in-out;
-        display: none;
-    }
-    .logo-image {
-        margin-top: -1rem;
-        width: 95%;
-        height: 80%;
-        transition: all .3s ease-in-out;
-    }
-    header {
-        background-color: white;
-        transition: all .3s ease-in-out;
-    }
-    .navbar-toggler {
-        margin-left: 38rem;
-        margin-top: -10px;
-    }
-    nav {
-        font-size: .8rem;
-        margin-top: -3.3rem;
-        transition: all .3s ease-out;
-    }
-    .dropdown-menu {
-        border-color: aquamarine;
-        font-size: .85rem;
-    }
-    .dropdown-item:hover {
-        background-color: aquamarine;
-    }
-    .carousel-block {
-        width: 100%;
-        height: auto;
-    }
-    .quality-section {
-        font-size: .8rem;
-        background-color: aquamarine;
-    }
-    .quality-section p {
-        color: black !important;
-    }
-    .num {
-        font-size: 2.5rem;
-        margin-bottom: 5px;
-    }
-    .card {
-        border: none;
-        cursor: pointer;
-        transition: all .2s ease-out;
-        width: 5rem;
-    }
-    .line {
-        width: 40%;
-    }
-    .actualite::before {
-        content: '';
-        width: 40%;
-        height: 5px;
-        position: absolute;
-        top: 85%;
-        background-color: aquamarine;
-        border-radius: 30%;
-    }
-    .actualite::after {
-        content: '';
-        width: 100%;
-        height: .8px;
-        position: absolute;
-        top: 95%;
-        background-color: aquamarine;
-    }
-    .card:hover {
-        transform: rotate(1deg);
-        transition: all .2s ease-in-out;
-        -webkit-box-shadow: -1px -4px 15px -5px rgba(0, 0, 0, 0.84);
-        -moz-box-shadow: -1px -4px 15px -5px rgba(0, 0, 0, 0.84);
-        box-shadow: -1px -4px 15px -5px rgba(0, 0, 0, 0.84);
-    }
-    .menu-lang {
-        width: 1px;
-        height: 5px;
-    }
-    .carousel-control-next {
-        position: absolute;
-        top: -30%;
-        width: 50px;
-        height: 80px;
-    }
-    .carousel-control-next {
-        position: absolute;
-        top: -12%;
-        width: 25px;
-        height: 30px;
-    }
-    .carousel-control-next #carousel-control-next-icon {
-        position: absolute;
-        top: -12%;
-        width: 25px;
-        height: 30px;
-        background-color: aquamarine;
-    }
-    .carousel-control-prev {
-        position: absolute;
-        top: -12%;
-        left: 55%;
-        width: 25px;
-        height: 30px;
-    }
-    .carousel-control-prev #carousel-control-prev-icon {
-        position: absolute;
-        top: -12%;
-        width: 25px;
-        height: 30px;
-        background-color: aquamarine;
-    }
-    footer {
-        font-size: .9rem;
-        background-color: #3E475B;
-    }
-    .footer-line {
-        width: 60%;
-        background-color: white;
-    }
-    .copyright {
-        background-color: #29BC4E;
-        height: 5%;
-        font-size: .9rem;
-    }
-}
-
-@media (max-width: 1199.98px) {
-    .navbar-toggler {
-        margin-left: 35rem;
-    }
-    .logo {
-        width: 100%;
-        height: 65%;
-        transition: all .3s ease-in-out;
-    }
-    .sticky {
-        position: fixed;
-        width: 100%;
-        top: 0;
-        height: 7%;
-        z-index: 3;
-        transition: all .3s ease-in-out;
-    }
-    .logo-image {
-        margin-top: -1rem;
-        width: 95%;
-        height: 80%;
-        transition: all .3s ease-in-out;
-    }
-    header {
-        background-color: white;
-        height: 4rem;
-        transition: all .3s ease-in-out;
-    }
-    nav {
-        font-size: .8rem;
-        margin-top: -3.7rem;
-        transition: all .3s ease-out;
-    }
-    .dropdown-menu {
-        border-color: aquamarine;
-        font-size: .85rem;
-    }
-    .dropdown-item:hover {
-        background-color: aquamarine;
-    }
-    .carousel-block {
-        width: 100%;
-        height: auto;
-    }
-    .quality-section {
-        font-size: .8rem;
-        background-color: aquamarine;
-    }
-    .quality-image {
-        width: 20%;
-        margin-left: 1.8rem;
-    }
-    .num {
-        font-size: 2.5rem;
-        margin-bottom: 5px;
-    }
-    .card {
-        border: none;
-        cursor: pointer;
-        transition: all .2s ease-out;
-        font-size: .9rem;
-        width: 13rem;
-    }
-    .line {
-        width: 40%;
-    }
-    .actualite::before {
-        content: '';
-        width: 40%;
-        height: 5px;
-        position: absolute;
-        top: 85%;
-        background-color: aquamarine;
-        border-radius: 30%;
-    }
-    .actualite::after {
-        content: '';
-        width: 100%;
-        height: .8px;
-        position: absolute;
-        top: 95%;
-        background-color: aquamarine;
-    }
-    .card:hover {
-        transform: rotate(1deg);
-        transition: all .2s ease-in-out;
-        -webkit-box-shadow: -1px -4px 15px -5px rgba(0, 0, 0, 0.84);
-        -moz-box-shadow: -1px -4px 15px -5px rgba(0, 0, 0, 0.84);
-        box-shadow: -1px -4px 15px -5px rgba(0, 0, 0, 0.84);
-    }
-    .card .card-img-top {
-        height: 13rem;
-    }
-    .menu-lang {
-        width: 1px;
-        height: 5px;
-    }
-    .carousel-control-next {
-        position: absolute;
-        top: -30%;
-        width: 50px;
-        height: 80px;
-    }
-    .carousel-control-next {
-        position: absolute;
-        top: -12%;
-        width: 25px;
-        height: 30px;
-    }
-    .carousel-control-next #carousel-control-next-icon {
-        position: absolute;
-        top: -12%;
-        width: 25px;
-        height: 30px;
-        background-color: aquamarine;
-    }
-    .carousel-control-prev {
-        position: absolute;
-        top: -12%;
-        left: 93%;
-        width: 25px;
-        height: 30px;
-    }
-    .carousel-control-prev #carousel-control-prev-icon {
-        position: absolute;
-        top: -12%;
-        width: 25px;
-        height: 30px;
-        background-color: #E1DEE9;
-    }
-    footer {
-        font-size: .9rem;
-        background-color: #3E475B;
-    }
-    .footer-line {
-        width: 60%;
-        background-color: white;
-    }
-    .copyright {
-        background-color: #29BC4E;
-        height: 5%;
-        font-size: .9rem;
-    }
-}
 
 .map-container-6 {
     overflow: hidden;
@@ -738,3 +388,271 @@ footer li a:hover {
     width: 100%;
     position: absolute;
 }
+
+@media (max-width: 575.98px) { 
+
+    body {
+        width: 100vw;
+    }
+    .logo {
+        width: 45%;
+        height: 75%;
+        transition: all .3s ease-in-out;
+    }
+    
+    .sticky {
+        position: relative;
+        width: 100%;
+        z-index: 3;
+        transition: all .3s ease-in-out;
+        box-shadow: 0px -3px 21px -2px rgba(0, 0, 0, 0.67);
+        -webkit-box-shadow: 0px -3px 21px -2px rgba(0, 0, 0, 0.67);
+        -moz-box-shadow: 0px -3px 21px -2px rgba(0, 0, 0, 0.67);
+    }
+    
+    .logo-image {
+        transition: all .3s ease-in-out;
+    }
+    
+    header {
+        background-color: white;
+        height: auto;
+        transition: all .3s ease-in-out;
+    }
+
+ 
+    
+    nav {
+        position: relative;
+        left: 60vw;
+        transition: all .3s ease-in-out;
+    } 
+
+    .navbar-nav {
+        right: 100%;
+    }
+
+    .carousel-control-next {
+        position: absolute;
+        top: -30%;
+        width: 50px;
+        height: 80px;
+        display: none;
+    }
+    
+    .carousel-control-next {
+        position: absolute;
+        top: -12%;
+        width: 25px;
+        height: 30px;
+        display: none;
+    }
+    
+    .carousel-control-next #carousel-control-next-icon {
+        position: absolute;
+        top: -11%;
+        width: 25px;
+        height: 25px;
+        background-color: green;
+        right: 12px;
+        display: none;
+    }
+    
+    .carousel-control-prev {
+        visibility: hidden;
+        position: absolute;
+        top: -12%;
+        left: 95%;
+        width: 25px;
+        height: 30px;
+        display: none;
+    }
+    
+    .carousel-control-prev #carousel-control-prev-icon {
+        visibility: hidden;
+        position: absolute;
+        top: -11%;
+        width: 25px;
+        height: 25px;
+        background-color: green;
+        right: 12px;
+        display: none;
+    }
+
+    .cards {
+        border: none;
+        cursor: pointer;
+        transition: all .2s ease-out;
+        width: 100%;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .follow {
+        display: none;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .logo {
+        width: 45%;
+        height: 75%;
+        transition: all .3s ease-in-out;
+    }
+    
+    .sticky {
+        position: relative;
+        width: 100%;
+        z-index: 3;
+        transition: all .3s ease-in-out;
+        box-shadow: 0px -3px 21px -2px rgba(0, 0, 0, 0.67);
+        -webkit-box-shadow: 0px -3px 21px -2px rgba(0, 0, 0, 0.67);
+        -moz-box-shadow: 0px -3px 21px -2px rgba(0, 0, 0, 0.67);
+    }
+    
+    .logo-image {
+        margin-top: -1%;
+        transition: all .3s ease-in-out;
+    }
+    
+    header {
+        background-color: white;
+        height: auto;
+        transition: all .3s ease-in-out;
+    }
+
+ 
+    
+    nav {
+        position: relative;
+        transition: all .3s ease-in-out;
+    } 
+
+    .navbar-nav {
+        right: 100%;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+    .follow {
+        display: none;
+        flex-direction: row;
+    } 
+
+    .carousel-control-next {
+        position: absolute;
+        top: -30%;
+        width: 50px;
+        height: 80px;
+        display: none;
+    }
+    
+    .carousel-control-next {
+        position: absolute;
+        top: -12%;
+        width: 25px;
+        height: 30px;
+        display: none;
+    }
+    
+    .carousel-control-next #carousel-control-next-icon {
+        position: absolute;
+        top: -11%;
+        width: 25px;
+        height: 25px;
+        background-color: green;
+        right: 12px;
+        display: none;
+    }
+    
+    .carousel-control-prev {
+        visibility: hidden;
+        position: absolute;
+        top: -12%;
+        left: 95%;
+        width: 25px;
+        height: 30px;
+        display: none;
+    }
+    
+    .carousel-control-prev #carousel-control-prev-icon {
+        visibility: hidden;
+        position: absolute;
+        top: -11%;
+        width: 25px;
+        height: 25px;
+        background-color: green;
+        right: 12px;
+        display: none;
+    }
+
+ }
+
+
+ @media (max-width: 991.98px) { 
+    .sticky {
+        position: relative;
+        width: 100%;
+        z-index: 3;
+        transition: all .3s ease-in-out;
+        box-shadow: 0px -3px 21px -2px rgba(0, 0, 0, 0.67);
+        -webkit-box-shadow: 0px -3px 21px -2px rgba(0, 0, 0, 0.67);
+        -moz-box-shadow: 0px -3px 21px -2px rgba(0, 0, 0, 0.67);
+    }
+    
+    .logo-image {
+        margin-top: -1%;
+        transition: all .3s ease-in-out;
+    }
+    
+    header {
+        background-color: white;
+        height: auto;
+        transition: all .3s ease-in-out;
+    }
+
+    .carousel-control-next {
+        position: absolute;
+        top: -30%;
+        width: 50px;
+        height: 80px;
+    }
+    
+    .carousel-control-next {
+        position: absolute;
+        top: -12%;
+        width: 25px;
+        height: 30px;
+    }
+    
+    .carousel-control-next #carousel-control-next-icon {
+        position: absolute;
+        top: -11%;
+        width: 25px;
+        height: 25px;
+        background-color: green;
+        right: 12px;
+    }
+    
+    .carousel-control-prev {
+        position: absolute;
+        top: -12%;
+        left: 93%;
+        width: 25px;
+        height: 30px;
+    }
+    
+    .carousel-control-prev #carousel-control-prev-icon {
+        position: absolute;
+        top: -11%;
+        width: 25px;
+        height: 25px;
+        background-color: green;
+        right: 12px;
+    }
+
+ 
+ }
