@@ -66,7 +66,7 @@ nav {
 
 .quality-section h3 {
     font-size: 1.6rem;
-    color: rgb(80, 75, 75) !important;
+    color: rgb(10, 172, 32) !important;
 }
 
 .quality-section p, .num {
@@ -307,6 +307,10 @@ footer li a:hover {
 .realisation {
     padding: 1rem;
     background-color: rgb(247, 245, 253);
+}
+ul li{
+    list-style: none;
+    text-align: justify
 }
 
 /* Personnel Area*/
